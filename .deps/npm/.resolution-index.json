@@ -1,0 +1,10 @@
+{
+  "EVIDENCE_VAULT/OCRRegistry.sol": {
+    "__sources__": {
+      "EVIDENCE_VAULT/OCRRegistry.sol": {
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.26;",
+        "file": "EVIDENCE_VAULT/OCRRegistry.sol"
+      }
+    }
+  }
+}
