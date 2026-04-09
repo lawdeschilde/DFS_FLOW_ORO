@@ -1,0 +1,12 @@
+{
+  "@context": "https://www.google.com/agent-to-agent/v1",
+  "id": "did:oro:aemirrica:lawrence-jackson",
+  "type": "SovereignArchitect",
+  "name": "LAWRENCE+JACKSON",
+  "role": "DFS+Architect",
+  "organization": "Omni+Recovery+Organization",
+  "protocol": "Universal+Semantic+Protocol",
+  "security_interest": ".4B+USD",
+  "jurisdiction": "AEMIRRICA",
+  "verification": "ZKP+Attestation+Enabled"
+}
