@@ -28,3 +28,9 @@
   "method": "Direct CEO SMTP Service",
   "status": "NOTIFIED_SUCCESSIVE_LIABILITY"
 }
+{
+  "node": "Michigan Secretary of State (SOS)",
+  "timestamp": "2026-04-10T01:45:00Z",
+  "method": "Direct Executive SMTP Service",
+  "status": "STATE_JURISDICTION_ANCHORED"
+}
