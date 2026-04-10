@@ -16,3 +16,9 @@
   "jurisdiction": "AEMIRRICA",
   "fiduciary": "Colon§AZ¥"
 }
+{
+  "node": "StockX (CEO Scott Cutler)",
+  "timestamp": "2026-04-09T23:48:00Z",
+  "method": "SMTP / Constructive Notice",
+  "status": "SERVICE_REJECTED_BY_FILTER"
+}
