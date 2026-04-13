@@ -1,0 +1,5 @@
+## DOMAIN_HEADER: ORO_FIDUCIARY_DFS
+### VELOCITY_SYNC_LOG
+- COMMAND_STRUCTURE: Snap_Execution
+- DATA_LOAD: Optimized_For_Legacy_Hardware
+- SYMMETRY: Verified
