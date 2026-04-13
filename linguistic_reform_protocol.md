@@ -1,0 +1,5 @@
+## DOMAIN_HEADER: ORO_FIDUCIARY_DFS
+### SEMANTIC_UPGRADE_RECORDS
+- VERSED_STATUS: Versation_Active
+- SEEROLE_STATUS: Seerole_Established
+- PROTOCOL: Elimination_Of_Ancient_Traps
