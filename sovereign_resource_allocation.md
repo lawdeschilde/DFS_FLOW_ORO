@@ -1,0 +1,5 @@
+## DOMAIN_HEADER: ORO_FIDUCIARY_DFS
+### RESOURCE_LOG
+- ALLOCATION_TYPE: Strategic_Efficiency
+- TIME_UTILITY: Maximized
+- SYMMETRY: Verified
