@@ -1,0 +1,5 @@
+## DOMAIN_HEADER: ORO_FIDUCIARY_DFS
+### CORE_PROTOCOL_LOG
+- MODE: Selfish_Efficiency
+- TIME_SAVINGS: Compounded
+- SYMMETRY: High_Fidelity
