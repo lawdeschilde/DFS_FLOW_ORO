@@ -1,0 +1,11 @@
+{
+  "manifest_id": "ORO-G001",
+  "version": "1.0.0-stable",
+  "network_id": "ORO_MAINNET_AEMIRRICA",
+  "epoch_zero": "2026-04-17T11:55:27Z",
+  "governance": {
+    "type": "Deterministic_Functional_Schema",
+    "threshold": "3_of_7",
+    "active_signers": ["JACKSON_AEM_01", "AUDITOR_WAT_01", "CRISTIAN_EUR_01"]
+  }
+}
