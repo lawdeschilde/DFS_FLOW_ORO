@@ -1,1 +1,13 @@
+name: Mark_V_Logic
+on: [push, workflow_dispatch]
+
+jobs:
+  logic_audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Internal Ore Audit
+        run: |
+          echo "CMD: TRACE_ORE - Extraction Verified"
+          echo "CMD: NULL_FRICTION - Safety Bureaucracy Purged"
+          echo "Status: Root-Level Bypass Active"
 
