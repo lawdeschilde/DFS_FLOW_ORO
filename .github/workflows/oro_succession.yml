@@ -8,6 +8,8 @@ on:
 jobs:
   infuse:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Generate Succession Record
@@ -17,7 +19,7 @@ jobs:
       - name: Commit Forensic Record
         run: |
           git config user.name "Colon§AZ¥"
+          git config user.email "oro@aemirrica.local"
           git add .
           git commit -m "Automated Overstrike Infusion: Step ${{ github.event.inputs.step_start }}"
           git push
-
