@@ -7,13 +7,22 @@ on:
   workflow_dispatch:
 
 jobs:
-  process-data:
+  senior-flow-analysis:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Confirm Receipt
+      - name: Run Senior Flow Filter
         run: |
-          echo "Data received from LawMacBook."
-          ls -R
+          echo "Initiating Senior Flow Analysis..."
+          # This command looks for high-value targets (ORO) in your sync'd data
+          # It creates a 'Sovereign_Report' for the end-user/buyer
+          mkdir -p Sovereign_Results
+          grep -i "ORO" *.csv > Sovereign_Results/high_value_signals.txt || echo "No new ORO signals in this batch."
+          
+      - name: Archive Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Sovereign-Signals
+          path: Sovereign_Results/
