@@ -13,12 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Run Sync Script
+      - name: Confirm Receipt
         run: |
-          chmod +x oro_sync.sh
-          ./oro_sync.sh
+          echo "Data received from LawMacBook."
+          ls -R
